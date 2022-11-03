@@ -325,3 +325,58 @@ bottom: 30px;
   .dropdownred a:hover {background-color: #ddd;}
   
   .show {display: block;}
+
+  .videoback{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 300px;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  .videoback .video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  .opaque{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+  }
+  .opaque h1{
+    text-align: center;
+    color: white;
+  }
+  .opaque p{
+    text-align: center;
+    color: white;
+  }
+  .opaque button{
+    margin-left: 45%;
+    background-color: transparent;
+    border: white thin solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .opaque button a{
+    color: white;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+  }
