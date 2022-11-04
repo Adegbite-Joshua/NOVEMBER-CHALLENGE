@@ -472,22 +472,24 @@ bottom: 30px;
     width: auto;
     height: 70px;
     border: black thin solid;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
   }
-  .icon{
-    width: 50px;
-    height: 50px;
-    border: thin black solid;
-    border-radius: 50%;
-    margin: 10px;
+  .iconsec div{
+    display: inline;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 10px 0 10px;
+    border: solid rgb(180, 175, 175) thin;
+    border-radius: 80%;
+    padding-left: 4px ;
   }
- 
-  /* .icon i{
-    width: 70%;
-    height: 70%;
-    color: red;
-  } */
-  .fa{
+  .iconsec i{
+    font-size: 1em;
+  }
+  .fa:hover{
     color: red;
     
-    font-weight: bolder;
   }
