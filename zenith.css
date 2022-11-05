@@ -90,6 +90,7 @@ a{
     color: white;
     width: 150px;
     height: 30px;
+    border: transparent solid;
 }
 .middle .right2 input{
     width: 130px;
@@ -625,9 +626,6 @@ a{
   #personal-body{
     display: flex;
   }
-  #personal-body div{
-    /* border: black thin solid; */
-  }
   .pbody1{
     width: 50%;
     height: 600px;
@@ -642,3 +640,67 @@ a{
     align-items: center;
     justify-content: center;
   }
+  .pcenter{
+    position: absolute;
+    display: flex;
+    top: 150px;
+    width: 650px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .except a{
+    font-size: 11px;
+    line-height: 14px;
+    margin: 5px 12px 5px 15px;
+    color: red;
+    /* text-align: center; */
+  }
+  .except a{}
+  .except p a{
+    font-size: 11px;
+    line-height: 14px;
+    margin: 5px 12px 5px 15px;
+    color: red;
+  }
+  .except p{
+    font-size: 11px;
+    line-height: 14px;
+    margin: 20px 12px 5px 80px;
+    /* text-align: center; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* THE SAVINGS ACCOUNT WEBPAGE */
+  .mid-third{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+  .thead button:hover{background-color: black;}
