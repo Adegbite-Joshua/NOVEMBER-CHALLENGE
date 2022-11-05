@@ -84,6 +84,7 @@ a{
     display: block;
   } */
 .in{
+  position: absolute;
     background: linear-gradient(to right, #DF000D, #82060F);
     border-radius: 15px;
     color: white;
@@ -94,16 +95,66 @@ a{
     width: 130px;
     height: 30px;
     border: black thin solid;
-border-radius: 10px;
-align-items: center;
-justify-self: center;
-position: absolute;
-right: 70px;
-bottom: 30px;
+    border-radius: 10px;
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
 }
 .right2{
     position: absolute;
     right: 20px;
+}
+.internetshow div{
+  display: none;
+  position: absolute;
+  top: 30px;
+  width: 200px;
+  height: 180px;
+  background-color: black;
+  /* border: red thick solid; */
+}
+.internetshow:hover div{
+  display: block;
+}
+.pinternet{
+  width: 150px;
+  height: 50px;
+  border: white thick solid;
+  display: block;
+  margin: 20px 25px 20px 25px;
+  color: white;
+  padding: 13px;
+}
+.cinternet{
+  width: 150px;
+  height: 50px;
+  border: white thick solid;
+  display: block;
+  margin: 20px 25px 20px 25px;
+  color: white;
+  padding: 13px;
+}
+.pinternet:hover{
+  border: red thick solid;
+  background-color: red;
+  display: block;
+  
+  
+}
+.cinternet:hover{
+  border: red thick solid;
+  background-color: red;
+  display: block;
+  
+  
+}
+.pinternet a{
+  color: white;
+}
+.cinternet a{
+  color: white;
 }
 .promosec{
     display: flex;
@@ -173,9 +224,8 @@ bottom: 30px;
     background-color: #E3000F;
 }
 .dropdown{
-    display: inline-block;
-    margin-left: 300px;
-    margin: 5px 20px 5px 20px;
+    display: inline;
+    margin: 5px 20px 5px 200px;
 }
 .a-content {
     display: none;
@@ -272,21 +322,41 @@ bottom: 30px;
 
   #myBtn {
     display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
+    position: sticky;
+    bottom: 0;
+    right: 45%;
+    margin-left: 45%;
     z-index: 99;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
+    background-color: transparent;
+    color: black;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
-  #myBtn:hover {
-    background-color: #555;
+  #myBtn .fir{
+    display: inline;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2em;
+  }
+  #myBtn .sec{
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  #myBtn:hover .fir{
+    display: none;
+  }  
+  #myBtn:hover .sec{
+    display: inline;
+    font-size: 11px;
   }  
 
   .dropred {
@@ -471,7 +541,7 @@ bottom: 30px;
   .iconsec{
     width: auto;
     height: 70px;
-    border: black thin solid;
+    border: rgb(182, 179, 179) thin solid;
     display: flex;
     align-items: center;
     margin-left: 100px;
@@ -492,4 +562,83 @@ bottom: 30px;
   .fa:hover{
     color: red;
     
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+  }
+  .foot2{
+    margin-left: 700px;
+  }
+  .foot1 span{
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 0;
+  }
+  .foot1 a{
+    margin-right: 0;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .foot2 a{
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .foot1 a:hover{
+    color: red;
+  }
+  .foot2 a:hover{
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* FOR THE PERONAL WEBPAGE  */
+  #personal-body{
+    display: flex;
+  }
+  #personal-body div{
+    /* border: black thin solid; */
+  }
+  .pbody1{
+    width: 50%;
+    height: 600px;
+  }
+  .pbody2{
+    width: 50%;
+    height: 600px;
+    padding-top: 50px;
+  }
+  .phead{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
   }
