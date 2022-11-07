@@ -704,3 +704,44 @@ a{
     margin-left: 10%;
   }
   .thead button:hover{background-color: black;}
+  .flexcen{
+    display: flex;
+  }
+  .flexleft{
+    width: 70%;
+    height: auto;
+  }
+  .flexright{
+    width: 30%;
+    height: auto;
+  }
+
+
+
+  /* THE CONTACT US WEBPAGE */
+
+  .midfour{
+    width: 40%;
+    margin-left: 30%;
+    height: auto;
+  }
+  .bigmid{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .notlong{
+    width: 70%;
+    margin-left: 5%;
+  }
+  .greysec{
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .grey{
+    width: 25%;
+
+  }
+  .grey p a{
+    color: red;
+  }
